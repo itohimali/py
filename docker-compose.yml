@@ -5,5 +5,5 @@ services:
     image: flask
     container_name: flask
     ports:
-      - "8001:7000"
+      - "8002:7000"
     restart: unless-stopped
